@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validate </title>
+    <link type="text/css" href="/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="validate">
+        <h1>VALIDATE FORM</h1>
+        <form name="myForm" action="#">
+            <div>
+                <label>Name :  </label>
+                <span id="name-error" class="error"></span>
+                <input type="text" placeholder="Enter name" id="username" name="user"/>
+            </div>
+            <div>
+                <label>Email :  </label>
+                <span id="email-error" class="error"></span>
+                <input type="text" placeholder="Enter email " id="email" name="email"/>
+            </div>
+            <div>
+                <label>Password : </label>
+                <span id="password-error" class="error"></span>
+                <input type="password" placeholder="Enter password" id="password" name="password"/>
+            </div>
+            <div>
+                <label>Confirm password : </label>
+                <span id="confirm-error" class="error"></span>
+                <input type="password" placeholder="Enter password again" id="confirm" name="confirm"/>
+            </div>
+            <input type="submit" name="submit" id="submit" onclick="validateForm()" />
+        </form>
+    </div>
+    <script type="text/javascript" src="/js/main.js" async defer></script>
+    
+</body>
+</html>

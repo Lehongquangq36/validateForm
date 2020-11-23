@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    text-align: center;
+}
+.validate {
+    width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+}
+form {
+    padding: 30px;
+}
+label {
+    margin: 15px auto;
+}
+input {
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+    padding: 10px;
+}
+input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #ff0000;
+    color:white;
+    cursor: pointer;
+}
+.error {
+    font-size: 0.7rem;
+    color: red;
+}
+@media only screen and (max-width : 1200px) {
+    html {
+        font-size: 14px;
+    }
+    .validate {
+        width: 80%;
+    }
+}
+@media only screen and (max-width : 576px) {
+    html {
+        font-size: 12px;
+    }
+    .validate {
+        width: 90%;
+    }
+    form {
+        padding: 5px;
+    }
+}
